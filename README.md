@@ -11,8 +11,8 @@ This is a very simple, bare-bones NodeJS project created for you to use with Doc
 
 ## Container Setup
 
-- Build image: `docker build .`
-- Run container with image: `docker run {image_id}` where `image_id` can be retrieved by running `docker images` and found under the column `IMAGE ID`
+- Build image: `docker build .` or `docker build -t simple-node-app .`
+- Run container with image: `docker run {image_id}` where `image_id` can be retrieved by running `docker images` and found under the column `IMAGE ID` `docker run e318ca6678df`
 
 ## Container teardown
 
